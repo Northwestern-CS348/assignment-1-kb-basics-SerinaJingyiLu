@@ -14,6 +14,8 @@ class KBTest(unittest.TestCase):
             if isinstance(item, Fact):
                 self.KB.kb_assert(item)
         
+    
+        
 
     def test1(self):
         ask1 = read.parse_input("fact: (color bigbox red)")
